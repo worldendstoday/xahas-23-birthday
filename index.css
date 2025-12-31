@@ -24,7 +24,7 @@ body {
 #birthdayCake, #cakeContainer {
     width: 512px;
     height: 512px;
-    cursor:url(/Media/wind-cursor.png), auto;
+    cursor:url(./Media/wind-cursor.png), auto;
 }
 
 #birthdayCake {
@@ -96,4 +96,5 @@ body {
     font-style: normal;
     color:white;
     font-size: 18px;
+
 }
