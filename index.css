@@ -1,0 +1,99 @@
+html, body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   overflow: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222034;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#birthdayCake, #cakeContainer {
+    width: 512px;
+    height: 512px;
+    cursor:url(/Media/wind-cursor.png), auto;
+}
+
+#birthdayCake {
+    border-radius: 100%;
+}
+
+#text{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+    font-size: 28px;
+}
+
+#notes{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+    font-size: 18px; 
+}
+
+#confetti{
+	background: none;
+	height: 100%;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: -5;
+}
+#notes {
+    width: 50%;
+    height: 100%;
+    background-color: #fff6bc;
+    color: black;
+    padding: 1em;
+}
+
+#cat-dance1, #cat-dance2, #cat-dance3, #cat-dance4, #cat-dance5{
+    width: 96px;
+    position: absolute;
+}
+
+#cat-dance1 {
+    z-index: -1;
+    left:30px;
+    top:20px;
+}
+#cat-dance2 {
+    z-index: -1;
+    left:30px;
+    top:200px;
+}
+#cat-dance3 {
+    z-index: -1;
+    left:30px;
+    top:380px;
+}
+#guide {
+    position: absolute;
+    right: 32px;
+    bottom: 0px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+    font-size: 18px;
+}
